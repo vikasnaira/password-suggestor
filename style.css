@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url("https://plus.unsplash.com/premium_photo-1661872680599-bfb0a671f8b1?q=80&w=1986&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-left:50px;
+    display: flex;
+    perspective: 1000px ;
+    align-items: center;
+    width:100%;
+}
+.b1{
+    width:100%;
+    height:fit-content;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+.b1 input{
+    width:300px;
+    background-color: transparent;
+    height:35px;
+    color:white;
+    font-size:20px;
+    padding-left:30px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+}
+.b1 button{
+    background-color: red;
+    width:7vw;
+    margin-left:20px ;
+    color:white;
+    border-radius: 20px;
+}
+.cont:hover {
+    transform:scale(1.1);
+}
+.cont{
+    height:60vh;
+    width:40%;
+    padding:30px;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    transform-style: preserve-3d;
+    color: white;
+    transition-delay: .5s;
+    transform: rotatey(180deg);
+    transition:1s;
+    transition-timing-function:ease-in;
+    box-shadow:20px 20px 50px #303253;
+    background-color: transparent;
+    align-items: center;
+    backdrop-filter: blur(20px);
+}
+/* .cont2{
+    height:50vh;
+    width:40%;
+    padding:30px;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    color: white;
+    transition-delay: .7s;
+    backface-visibility:hidden;
+    transition:1s;
+    transform:rotatex(180deg);
+    transition-timing-function:ease-in;
+    box-shadow:20px 20px 50px #303253;
+    background-color: transparent;
+    align-items: center;
+    backdrop-filter: blur(20px);
+} */
+#set{
+    display: flex;
+    justify-content: space-between;
+    font-weight:100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items:center;
+    width:100%;
+    padding:10px;
+    font-size:10px;
+}
+input[type="radio"]{
+    width:20px;
+    height:20px;
+}
+.cont>button{
+    background-color:red;
+    width:10vw;
+    height:50px;
+    font-size:20px;
+    border-radius: 20px;
+}
